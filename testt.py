@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 st.title("Welcome ra boyys")
 
-genai.configure(api_key="AIzaSyCy4ZTxt1DiSBeySNHw-pYJey70Nc_uQ3I")
+genai.configure(api_key="Your api key")
 text = st.text_input("Enter your question")
 
 model = genai.GenerativeModel('gemini-pro')
